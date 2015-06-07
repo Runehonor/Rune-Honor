@@ -1,0 +1,11 @@
+Name: Bounty Hunter
+Question: Implement BH system to the wilderness?
+Option (1) =    Yes, implement it!
+Option (2) =    No, this is not a good idea.
+Option (3) =    -
+Option (4) =    -
+
+POLL VOTERS
+
+vote = 1	chris
+vote = 2	pixel kid
