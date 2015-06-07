@@ -1,0 +1,22 @@
+			if (k == 11) {
+				loginMessage2 = "Login server rejected session.";
+				loginMessage2 = "Please try again.";
+				return;
+			}
+
+
+
+anim 3945 = teleport anim?
+
+
+// TO GIVE AN NPC SHOUTING PROPERTIES
+
+if (npcs[i].npcType == 2539){ //NPC NAME HERE
+                    if (Misc.random2(60) <= 3) { //EX FOR TIMER: 20
+                            npcs[i].updateRequired = true;
+                            npcs[i].forceChat("Arrr! *HIC* Report all o' the bugs that 'ye find on the forums!");
+                    }
+            } 
+
+
+ADD UNDER ACTIONTIMER IN NPCHANDLER

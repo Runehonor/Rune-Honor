@@ -1,0 +1,35 @@
+#
+# This File defines the Rules for extraction of runescape files
+# 
+# I cant really be fucked documenting this so heres some quickies:
+#
+# input=(location of cache files)
+# output=(destination to output files)
+# data=(input filename), (number of indexes)
+# index(input filename), (title), (extension)
+#
+# -----------
+#
+# New Runescape Rules
+#
+# -----------
+input=
+output=./newcache/
+version=2
+data=main_file_cache.dat2,16
+index=main_file_cache.idx0,cache0,dat
+index=main_file_cache.idx1,cache1,dat
+index=main_file_cache.idx3,cache3,dat
+index=main_file_cache.idx4,cache4,dat
+index=main_file_cache.idx5,cache5,dat
+index=main_file_cache.idx6,cache6,dat
+index=main_file_cache.idx7,model,mdl
+index=main_file_cache.idx8,cache8,dat
+index=main_file_cache.idx9,cache9,dat
+index=main_file_cache.idx0,cache10,dat
+index=main_file_cache.idx11,cache11,dat
+index=main_file_cache.idx12,cache12,dat
+index=main_file_cache.idx13,cache13,dat
+index=main_file_cache.idx14,cache14,dat
+index=main_file_cache.idx15,cache15,dat
+index=main_file_cache.idx255,cache255,dat

@@ -1,0 +1,26 @@
+#
+# This File defines the Rules for extraction of runescape files
+# 
+# I cant really be fucked documenting this so heres some quickies:
+#
+# input=(location of cache files)
+# output=(destination to output files)
+# data=(input filename), (number of indexes)
+# index(input filename), (title), (extension)
+#
+# -----------
+#
+# Old Runescape Rules
+#
+# -----------
+input=
+output=./oldcache/
+names=./data/names.dat
+SpriteNameFile=./data/sprite.dat
+version=1
+data=main_file_cache.dat,5
+index=main_file_cache.idx0,gamedata,jag
+index=main_file_cache.idx1,models,mdl
+index=main_file_cache.idx2,cache2,dat
+index=main_file_cache.idx3,music,mid
+index=main_file_cache.idx4,cache4,dat
